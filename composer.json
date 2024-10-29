@@ -1,5 +1,5 @@
 {
-    "name": "textmagic/textmagic-rest-php-v2",
+    "name": "fdvhuset/textmagic-rest-php-v2",
     "version": "2.0.23575",
     "description": "",
     "keywords": [
@@ -17,21 +17,20 @@
         }
     ],
     "require": {
-        "php": "^7.2.5 || ^8.0",
+        "php": "^8.2",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "^7.2"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^4.8",
-        "squizlabs/php_codesniffer": "~2.6",
-        "friendsofphp/php-cs-fixer": "~2.12"
+        "guzzlehttp/guzzle": "^7.8"
     },
     "autoload": {
         "psr-4": { "TextMagic\\" : "src/" }
     },
     "autoload-dev": {
         "psr-4": { "TextMagic\\" : "test/" }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "friendsofphp/php-cs-fixer": "^3.64"
     }
 }
